@@ -1,0 +1,27 @@
+.nav {
+  background-color: #3f6212;
+  padding: 16px 8px;
+  border-radius: 0px 0px 35px 35px;
+}
+
+ul.nav-links {
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-content: center;
+  min-width: 450px;
+  max-width: 60vw;
+  justify-content: space-evenly;
+}
+
+ul .nav-link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+ul .nav-link a:hover {
+  color: #d9f99d;
+}
