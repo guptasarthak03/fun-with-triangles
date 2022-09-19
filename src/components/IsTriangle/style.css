@@ -1,0 +1,97 @@
+.main-card-container {
+  min-height: 550px;
+  margin: 3rem auto;
+  width: 70%;
+  min-width: 800px;
+  border-radius: 20px;
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgba(12, 74, 110, 1) 45%,
+    rgba(224, 242, 254, 1) 90%,
+    rgba(224, 242, 254, 1) 100%
+  );
+}
+
+.left-card {
+  /* background-color: #0c4a6e; */
+  flex-basis: 45%;
+  border-radius: 12px 0px 0px 12px;
+  color: #e0f2fe;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.left-card .brand {
+  text-align: center;
+}
+
+.brand p.title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.brand p.description {
+  font-size: 1.2rem;
+  margin: 16px;
+}
+
+.hint {
+  color: black;
+  position: absolute;
+  bottom: 60px;
+}
+
+/* right-card */
+
+.right-card {
+  flex-basis: 55%;
+  border: 2px solid #0c4a6e;
+  border-radius: 0 12px 12px 0;
+  border-left: none;
+  padding: 2rem 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.input-container {
+  width: 80%;
+}
+
+.input-container label,
+input {
+  display: block;
+}
+
+.input-container label {
+  margin: 16px 0 3px;
+  font-size: 19px;
+  text-align: left;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 4px;
+}
+
+.btn-check {
+  margin: 32px auto;
+  padding: 6px 18px;
+  background-color: #0c4a6e;
+  color: #e0f2fe;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+p.output {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0c4a6e;
+}

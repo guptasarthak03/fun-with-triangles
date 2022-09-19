@@ -1,5 +1,5 @@
 .nav {
-  background-color: #3f6212;
+  background-color: #0c4a6e;
   padding: 16px 8px;
   border-radius: 0px 0px 35px 35px;
 }
@@ -23,5 +23,5 @@ ul .nav-link a {
 }
 
 ul .nav-link a:hover {
-  color: #d9f99d;
+  color: #e0f2fe;
 }

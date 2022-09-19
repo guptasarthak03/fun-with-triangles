@@ -11,7 +11,7 @@ const Navbar = ({ setPage }) => {
       <ul className="nav-links">
         <li className="nav-link">
           <a href="#" onClick={() => setPage('isTriangle')}>
-            Trianle?
+            Triangle?
           </a>
         </li>
         <li className="nav-link">
@@ -21,7 +21,7 @@ const Navbar = ({ setPage }) => {
         </li>
         <li className="nav-link">
           <a href="#" onClick={() => setPage('hypotenuse')}>
-            Hyptenuse
+            Hypotenuse
           </a>
         </li>
         <li className="nav-link">
